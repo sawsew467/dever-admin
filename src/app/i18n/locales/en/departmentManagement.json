@@ -1,0 +1,17 @@
+{
+  "title": "Department Management",
+
+  "addDepartment": {
+    "title": "Add Department",
+    "name": "Name",
+    "value": "Value",
+    "add": "Add"
+  },
+
+  "editDepartment": {
+    "title": "Edit Department",
+    "name": "Name",
+    "value": "Value",
+    "edit": "Edit"
+  }
+}

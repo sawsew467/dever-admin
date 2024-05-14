@@ -12,13 +12,19 @@ const endpointAuth = {
 const endpointUsersManagement = {
   GET_ALL_USERS: `${prefixBase}/user-managements/`,
 };
-const endpointScheduleManagement = {};
+const endpointDepartmentManagement = {
+  GET_ALL_DEPARTMENTS: `${prefixBase}/department/`,
+  DEPARTMENT: `${prefixBase}/department/`,
+  DELETE_DEPARTMENT: `${prefixBase}/department/{id}`,
+  GET_DEPARTMENT_BY_ID: `${prefixBase}/department/{id}`,
+  EDIT_DEPARTMENT_BY_ID: `${prefixBase}/department/{id}`,
+};
 
 const endpointOther = {};
 
 export {
   endpointAuth,
   endpointUsersManagement,
-  endpointScheduleManagement,
+  endpointDepartmentManagement,
   endpointOther,
 };

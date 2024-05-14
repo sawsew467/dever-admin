@@ -1,0 +1,17 @@
+{
+  "title": "Quản lý ban",
+
+  "addDepartment": {
+    "title": "Thêm ban",
+    "name": "Tên",
+    "value": "Giá trị",
+    "add": "Thêm"
+  },
+
+  "editDepartment": {
+    "title": "Chỉnh sửa thông tin ban",
+    "name": "Tên",
+    "value": "Giá trị",
+    "edit": "Chỉnh sửa"
+  }
+}

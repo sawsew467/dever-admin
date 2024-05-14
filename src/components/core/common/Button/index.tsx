@@ -4,7 +4,7 @@ import * as S from "./styles";
 
 export interface ButtonCommonProps extends ButtonProps {
   $width?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 function Button({
